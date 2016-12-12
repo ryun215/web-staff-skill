@@ -13,7 +13,7 @@
 <body>
 <div class="container">
 
-		<form action="<c:url value='/jsp/insertFormAction.staff'/>" method="post">
+		<form action="<c:url value='/jsp/SearchFormAction.staff'/>" method="post">
 			<table class="table table-bordered">
 				<tr>
 					<th>이름</th>
@@ -50,7 +50,7 @@
 				</tr>
 				<tr>
 					
-    					<td colspan="6" style = "text-align:center;"><input type="submit" value="입력"></td>
+    					<td colspan="6" style = "text-align:center;"><input type="submit" value="조회"></td>
 					
 				</tr>
 				

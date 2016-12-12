@@ -11,7 +11,7 @@ import dto.StaffSkill;
 public class insertFormAction implements Action {
 
 	@Override
-	public FrontController execute(HttpServletRequest request, HttpServletResponse response) throws Exception {
+	public synchronized FrontController execute(HttpServletRequest request, HttpServletResponse response) throws Exception {
 		request.setCharacterEncoding("euc-kr");
 		System.out.println("입력명령 처리 메소드 실행");
 		
