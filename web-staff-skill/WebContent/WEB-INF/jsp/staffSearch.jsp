@@ -8,7 +8,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>    
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
-
 <title></title>
 </head>
 <body>
@@ -21,7 +20,7 @@
 					<td><input type="text" name="staffName" /></td>
 					<th>성별</th>
 					<td>
-						남<input type="checkbox" class="sex" name="male"> 여<input type="checkbox" class="sex" name="female"> 
+						남<input type="checkbox" name="sex" value="1"> 여<input type="checkbox" name="sex" value="2"> 
 					<th>종교</th>
 					<td>
 						<select name="religionName">	
