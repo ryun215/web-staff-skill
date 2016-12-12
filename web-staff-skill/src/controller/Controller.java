@@ -29,6 +29,21 @@ public class Controller extends HttpServlet {
 		FrontController front = null;
 		Action action = null;
 
+		
+		//조회화면에서 조회버튼 클릭시
+		if (command.equals("/jsp/SearchFormAction.staff")){
+			try{
+				
+			}catch(Exception e){
+				e.printStackTrace();
+			}
+		}
+		
+		
+		
+		
+		
+		
 		// 조회화면으로 갈 때 religion, graduate, skill값 조회
 		if (command.equals("/jsp/staffSearch.staff")) {
 			System.out.println("조회화면으로 갈 때 religion, graduate, skill값 조회");

@@ -24,6 +24,11 @@ public class Dao {
 	ArrayList<Skill> skill;
 	Skill sk;
 
+	
+	
+	
+	
+	
 	//스태프스킬 입력
 	public int staffSkillInsert(int generatedkey, int skillno){
 		System.out.println("staffSkillInsert 메소드 실행");
