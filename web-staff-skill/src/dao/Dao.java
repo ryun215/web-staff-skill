@@ -24,6 +24,18 @@ public class Dao {
 	ArrayList<Skill> skill;
 	Skill sk;
 
+	//search 쿼리실행
+	public void search(){
+		System.out.println("search 메소드 실행");
+		try{
+		DBUtill db = new DBUtill();
+		conn = db.getConnection();
+		}catch(Exception e){
+			e.printStackTrace();
+		}finally{
+			this.close(conn, pstmt, rs);
+		}
+	}
 	
 	
 	

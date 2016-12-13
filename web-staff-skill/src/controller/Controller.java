@@ -12,6 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import action.Action;
 import action.InsertForm;
 import action.SearchForm;
+import action.SearchFormAction;
 import action.insertFormAction;
 
 @WebServlet("/Controller")
@@ -32,7 +33,12 @@ public class Controller extends HttpServlet {
 		
 		//조회화면에서 조회버튼 클릭시
 		if (command.equals("/jsp/SearchFormAction.staff")){
+			System.out.println("조회버튼 클릭");
+				action = new SearchFormAction();
+			
 			try{
+				
+				
 				
 			}catch(Exception e){
 				e.printStackTrace();

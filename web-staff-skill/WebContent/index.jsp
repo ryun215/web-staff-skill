@@ -13,11 +13,11 @@
 <body>
 
 
-<%--   입력
-<%response.sendRedirect(request.getContextPath()+"/jsp/staffInsert.staff"); %> --%>
-
+  입력
+<%response.sendRedirect(request.getContextPath()+"/jsp/staffInsert.staff"); %>
+<%-- 
  검색
 <%response.sendRedirect(request.getContextPath()+"/jsp/staffSearch.staff"); %>
-
+ --%>
 </body>
 </html>

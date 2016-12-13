@@ -20,7 +20,7 @@
 					<td><input type="text" name="staffName" /></td>
 					<th>성별</th>
 					<td>
-						남<input type="checkbox" name="sex" value="1"> 여<input type="checkbox" name="sex" value="2"> 
+						남<input type="checkbox" name="gender01" value="1"> 여<input type="checkbox" name="gender02" value="2"> 
 					<th>종교</th>
 					<td>
 						<select name="religionName">	
@@ -46,7 +46,7 @@
 				</tr>
 				<tr>
 				<th>졸업일</th>
-					<td colspan="5"><input type="date" name="date">~<input type="date"></td>
+					<td colspan="5"><input type="date" name="date01">~<input type="date" name="date02"></td>
 				</tr>
 				<tr>
 					
